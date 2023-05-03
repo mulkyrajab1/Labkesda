@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		h1{
+			width: max-content;
+			font-size: 72px;
+			position: relative;
+			cursor: pointer;
+			margin: 100px auto;
+			font-family: Raleway;
+		}
+		h1::after{
+			content: "";
+			width: 100%;
+			height: 4px;
+			background-color: #000;
+			position: absolute;
+			bottom: -5px;
+			left: 0;
+			transition-timing-function: ease-in-out;
+			transition: 0.3s;
+			transform: scaleX(0);
+		}
+		h1:hover:after{
+			transform: scaleX(1);
+		}
+	</style>
+</head>
+<body>
+	<h1>Hover Me</h1>
+</body>
+</html>

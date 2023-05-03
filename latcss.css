@@ -1,0 +1,153 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;');
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,900;1,800&family=Montserrat:wght@500;700;800&family=Quicksand:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+  .container-lat{
+	width: 100%;
+	height: 97vh;
+	margin: auto;
+}
+
+.content-lat{ 
+  position: relative;
+  top: 60px;
+  margin: auto;
+  width: 90%;
+  height: 80%;
+}
+
+.content-lat img{
+	position: absolute;
+	z-index: 9998;
+	width: 500px;
+	bottom: -50px;
+	left: 350px;
+}
+
+
+.grid{
+  position: relative;
+  left: 10px;
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color:#feec5e; 
+}
+
+.grid h3{
+	margin-left: 100px;
+	font-family: poppins;
+	color: black;
+}
+
+.grid h3:after{
+	content: "";
+	border-top:1px solid #1072B8;
+  display: block;
+  position: relative;
+  top: -6px;
+  right: 43%;
+  margin: 0 auto;
+  width: 6%;
+  content: "";
+  border-color: black;
+}
+
+.grid h4{
+	font-family: Quicksand;
+	font-size: 30px;
+	margin-left: 150px;
+	margin-bottom: -30px;
+}
+
+.grid h1{
+	position: absolute;
+	margin-left:150px;
+	z-index: 9999;
+	font-size: 72px;
+	color: white;
+	width: 700px;
+	font-family: public Sans;
+}
+
+.grid2{
+	position: relative;
+	right: 10px;
+	width: 50%;
+	height: 100%;
+	float: right;
+	background-color:#f9df13;
+}
+
+.grid2 h4{
+	position: absolute;
+	font-family: Quicksand;
+	font-size: 30px;
+	top: 210px;
+	left: 230px;
+}
+
+.grid p:before{
+  border: 1px solid #1072B8;
+  display: block;
+  position: relative;
+  top: 7px;
+  right: 80px;
+  margin: 0 auto;
+  width: 70%;
+  content: "";
+  border-color: white;
+}
+
+.grid p{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 200px;
+	transform: rotate(-90deg);
+	font-size: 8px;
+	font-weight: 900;
+	font-family: poppins;
+}
+
+.grid h5{
+	margin-left: 150px;
+	margin-top: 350px;
+	font-family: Quicksand;
+	font-weight: 800;
+	color: grey;
+	font-size: 11px;
+}
+
+ul{
+	margin-left: 220px;
+	width: 400px;
+	display:inline-flex;
+}
+
+li{
+	margin-right: 30px;
+	list-style: none;
+	cursor: pointer;
+}
+
+a{
+	font-size: 12px;
+	font-family: Poppins;
+	text-decoration:none;
+	font-weight: 900;
+	color: black;
+}
+
+li:hover{
+	border: 1px solid;
+	border-color: white;
+	background-color: white;
+}
+
+@media screen and (max-width 500px){
+	.grid h1{
+		font-size: 10px;
+	}
+} 
